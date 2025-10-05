@@ -1,9 +1,31 @@
 # PrediCtOr2
 _Repositório do artigo sobre o PrediCtOr2_
 
-Nesta seção, estão descritas as _Equações_, os _Algoritmos_ e _Gráficos_ do estudo.
+Nesta seção, estão descritas a _Motivação_, as _Equações_, os _Algoritmos_ e _Gráficos_ do estudo.
 
 A cima, encontram-se _Tabelamentos_ em formato _.csv_ com as predições produzidas para o estudo.
+
+## Motivação
+O oxigênio é um dos bens mais preciosos para os seres vivos. Do primeiro respirar até o último, toda uma existência se firma. No entanto, nosso ar e atmosfera não são compostos unicamente por oxigênio respirável (O2). Diversos outros elementos os compõem, alguns destes atuam como uma barreira protetora para os seres vivos. Uma destas barreiras é a Camada de Ozônio (composta de ozônio, O3), localizada entre 25 a 30 km acima da superfície terrestre, na estratosfera. Essa camada nos protege dos raios solares, como um filtro para os raios ultravioletas (raios UV). Um dos fatores que contribuem para o enfraquecimento da Camada de Ozônio é a presença excessiva de gases danosos, os chamados Gases do Efeito Estufa (GEE), como Óxido Nítrico (NO), Óxido Nitroso (N2O), Metano (CH4) e o Dióxido de Carbono (CO2).
+
+O CO2 é uma estrutura química formafa pela ligação de um átomo de Carbono com dois de Oxigênio forma [Souza, 2023]. Foi descoberto pelo escocês Joseph Black em 1975 [Souza, 2023]. É possível observá-lo na atmosfera sendo gerado naturalmente ou por intervenção do homem. Na natureza, esse gás é importante, dentre outras funções, para plantas e oceanos.
+
+Segundo [Rasera, 2005], “os processo envolvidos na retirada de CO2 da atmosfera são fotossíntese e a dissolução de CO2 nos oceanos, e os principais processos envolvidos no retorno do CO2 para atmosfera são a oxidação da matéria orgânica pela respiração ou queima e a liberação de CO2 dos oceanos, nas áreas onde a concentração deste gás é superior em relação à atmosfera.”
+
+Em contrapartida, como explicado por [Rasera, 2005], esses gases são gerados pela decomposição de matéria orgânica, nas erupções vulcânicas [NASA, 2022] e pela liberação das plantas e oceanos. Vale ressaltar, que tal processo é natural, e serve para equilibrar a vida na terra, gerando, assim, o efeito estufa abaixo da Camada de Ozônio.
+
+Diametralmente oposto ao propósito natural da liberação desse gás, a ação antrópica tem sua parcela de contribuição.
+Ao observar os dados [NOOA, 2022], vê-se que a cada ano aumenta-se a quantidade de CO2 emitida na atmosfera.
+
+O gráfico adiante mostra os níveis de CO2 durante os três últimos ciclos glaciais da Terra, que foram obtidos por meio da captura por bolhas de ar presas em camadas de gelo e geleiras.
+![CO2 - Níveis histórico da elevação (Nasa)](https://github.com/user-attachments/assets/aa432373-b071-4413-9597-615cf0437596)
+
+O segundo gráfico mostra os níveis atmosféricos de CO2 nos últimos anos, com as mudanças naturais e sazonais removidas (NASA, 2022).
+<img width="629" height="300" alt="CO2 - 2005-Present (Nasa)" src="https://github.com/user-attachments/assets/d46da7bc-4d05-43ad-94f7-2073a4edc4ab" />
+
+Os gráficos apresentados revelam, visualmente, a evolução da concentração de CO2 na atmosfera.
+
+Sendo assim, o objetivo deste trabalho é elaborar e treinar um modelo de ML (PrediCtOr2), utilizando como entrada dados compilados pela agência norte-americana NASA (National Aeronautics and Space Administration - "Administração Nacional da Aeronáutica e Espaço, em tradução direta") e monitorados pela NOAA (National Oceanic and Atmospheric Administration - "Administração Nacional Oceânica e Atmosférica", em tradução direta), referente ao período de 1958 até maio de 2024 [NOAA, 2022]. Utilizando o método de classificação por Regressão, foram considerados tanto o ajuste linear quanto os modelos não lineares logarítmico e exponencial, com intuito de predizer os próximos índices de emissão de CO2 na atmosfera terrestre, assumindo a manutenção da tendência de comportamento observadas nas séries temporais.
 
 ## Regressão Linear
 Para se trabalhar com os dados no caso linear pelo MMQ, aplicou-se a _Equação 1_ depois de descobriu-se $a$ e $b$.
@@ -116,3 +138,47 @@ Gráfico de disperção do PrediCtO2 - Todos os casos
 
 Gráfico de disperção do PrediCtO2 - Todos os casos [Recorte de 2024]
 ![SBPO 2025 {Artigo  - Gráfico de dispersão (PrediCtOr2) - Recorte 2024](https://github.com/user-attachments/assets/5e62c881-e141-429a-96d0-758c3c7ca1ce)
+
+## Referências
+
+Almeida, C. G. d. (2019). Cálculo Numérico. UFU. URL https://repositorio.ufu.br/bitstream/123456789/25218/1/Calculo%20Numerico.pdf.
+
+Amarpuri, L., Yadav, N., Kumar, G., e Agrawal, S. (2019). Prediction of co2 emissions using deep learning hybrid approach: A case study in indian context. In 2019 Twelfth International Conference on Contemporary Computing (IC3), p. 1–6.
+
+Bishop, C. M. e Nasrabadi, N. M. (2006). Pattern recognition and machine learning, volume 4. Springer, 1 edition.
+
+Box, G. E., Jenkins, G. M., Reinsel, G. C., e Ljung, G. M. (2015). Time series analysis: forecasting and control. John Wiley & Sons, 5 edition. ISBN 978-1-118-67502-1.
+
+Ferreira, D. F. P. (2025). Predictor2. GitHub repository. URL https://github.com/David-invictus/PrediCtOr2.git. Repositório de software no GitHub.
+
+Houghton, R. A. e Woodwell, G. M. (1989). Global climatic change. Scientific American, 260(4):36–47. ISSN 00368733, 19467087. URL http://www.jstor.org/stable/24987210.
+
+Kumar, R., Kumar, P., e Kumar, Y. (2020). Time series data prediction using iot and machine learning technique. Procedia Computer Science, 167:373–381. ISSN 1877-0509. URL https://www.sciencedirect.com/science/article/pii/S1877050920307067. International Conference on Computational Intelligence and Data Science.
+
+Kumari, S. e Singh, S. K. (2023). Machine learning-based time series models for effective co2 emission prediction in india. Environmental Science and Pollution Research, 30(55):116601–
+116616. URL https://doi.org/10.1007/s11356-022-21723-8.
+
+Li, L., Lei, Y., He, C., Wu, S., e Chen, J. (2017). Prediction on the peak of the c [o. sub. 2] emissions in china using the stirpat model. Advances in Meteorology, 2017. URL https:
+//doi.org/10.1155/2016/5213623.
+
+Masson-Delmotte, V., Zhai, P., Pörtner, H.-O., Roberts, D., Skea, J., Shukla, P. R., Pirani, A., Moufouma-Okia, W., Péan, C., Pidcock, R., Connors, S., Matthews, J. B. R., Chen, Y., Zhou,
+X., Gomis, M. I., Lonnoy, E., Maycock, T., Tignor, M., e Waterfield, T. (2019). Aquecimento global de 1,5°c: Sumário para formuladores de políticas. Relatório Especial do IPCC sobre o
+Aquecimento Global de 1,5°C, Versão em Português. URL https://www.ipcc.ch/site/assets/uploads/2019/07/SPM-Portuguese-version.pdf. Tradução não oficial para o português. Relatório original publicado em 2018.
+
+Montgomery, D. C. e Runger, G. C. (2010). Applied statistics and probability for engineers. John wiley & sons, 5 edition. ISBN 13: 978-0-470-05304-1.
+
+Nações Unidas (2022). O que são as mudanças climáticas? URL https://brasil.un.org/pt-br/175180-o-que-sao-mudancas-climaticas.
+
+NOAA (2022). Co2 measurements. Noaa.gov. URL https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_mm_mlo.txt.
+
+Pinto, E. d. P. P., Moutinho, P., Stella, O., Castro, I., Mazer, S., Rettmann, R., e Moreira, P. F. (2010). Perguntas e respostas sobre aquecimento global. Technical report, Instituto de Pesquisa Ambiental da Amazônia, Belém/PA. URL https://cmsdespoluir.cnt.org.br/Documents/PDFs/Perguntas%20e%20respostas%20sobre%20AQUECIMENTO%20GLOBAL.pdf.
+
+Silva, H. A. P. D. (2022). Simulação da elevação do nível médio do mar utilizando métodos numéricos e ferramentas de geoprocessamento: estudo de caso. Master’s thesis, Universidade Federal Rural do Semi-Árido (UFERSA), Mossoró/RN. URL https://repositorio.ufersa. edu.br/handle/prefix/9072.
+
+Taheri, S. e Razban, A. (2021). Learning-based co2 concentration prediction: Application to indoor air quality control using demand-controlled ventilation. Building and Environment, 205:108164. ISSN 0360-1323. URL https://www.sciencedirect.com/science/article/pii/S0360132321005655.
+
+Souza, Líria Alves de (2023). Dióxido de Carbono; Brasil Escola. Disponível em: https://brasilescola.uol.com.br/quimica/dioxido-de-carbono.htm. Acesso em 18 fev. 2023.
+
+Rasera, Maria de Fátima Fernades Lamy (2005). O papel das emissões de CO2 para a atmosfera, em rios da bacia do Ji- Paraná (RO), no ciclo regional do carbono. Orientador: Prof. Dr. Alex Vladimir Krusche. 69 p. Dissertação (Mestra) - Centro de Energia Nuclear na Agricultura, Universidade de São Paulo, Piracicaba-SP, Brasil, 2005. Disponível em: https://www.teses.usp.br/teses/disponiveis/64/64135/tde-31072006-083532/publico/Rasera_MFFL.pdf. Acesso em: 15 out. 2022.
+
+NASA (2022). HOLLY SHAFTEL. (ed.). Vital Signs: carbon dioxide. Carbon Dioxide. Editora de Ciências: Susan Callery. Disponível em: https://climate.nasa.gov/vital-signs/carbon-dioxide/. Acesso em: 21 set. 2022.
