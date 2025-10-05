@@ -21,6 +21,7 @@ O gráfico adiante mostra os níveis de CO2 durante os três últimos ciclos gla
 ![CO2 - Níveis histórico da elevação (Nasa)](https://github.com/user-attachments/assets/aa432373-b071-4413-9597-615cf0437596)
 
 O segundo gráfico mostra os níveis atmosféricos de CO2 nos últimos anos, com as mudanças naturais e sazonais removidas (NASA, 2022).
+
 <img width="629" height="300" alt="CO2 - 2005-Present (Nasa)" src="https://github.com/user-attachments/assets/d46da7bc-4d05-43ad-94f7-2073a4edc4ab" />
 
 Os gráficos apresentados revelam, visualmente, a evolução da concentração de CO2 na atmosfera.
